@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleApp_Spring24</string>
+    <string name="incr">Increase</string>
+</resources>
