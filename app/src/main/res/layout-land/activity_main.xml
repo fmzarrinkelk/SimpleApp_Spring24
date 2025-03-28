@@ -26,36 +26,23 @@
         android:layout_gravity="center"
         android:text="@string/incr" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="50sp">
-
-        <Button
-            android:id="@+id/clearBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Clear"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <RadioButton
             android:id="@+id/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Happy"
+            android:layout_marginEnd="95dp"
+            android:text="RadioButton"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/saveBtn"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/saveBtn"
-            android:layout_width="91dp"
+            <Button
+            android:id="@+id/second_button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            android:text="DSecond Button"
+            tools:layout_editor_absoluteX="150dp" />
 
     <ImageView
         android:id="@+id/imageView"
